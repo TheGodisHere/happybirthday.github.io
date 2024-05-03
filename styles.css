@@ -8,18 +8,28 @@ body {
 header {
     background-color: #ffcccc;
     text-align: center;
-    padding: 20px;
+    padding: 200px;
 }
 
 main {
     max-width: 800px;
-    margin: 20px auto;
+    margin: auto;
+    text-align: center;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    color: #333333;
+.gallery-item {
+    margin-bottom: 20px;
+    max-width: 800px; /* Limits the maximum width to the size of the container */
+    height: auto; /* Automatically adjusts height to maintain aspect ratio */
+    display: block; /* Ensures images are displayed as block elements */
+    margin: 0 auto; /* Centers images horizontally within the container */  
+    font-style: italic;
+    color: #666;
+    font-size: 18px; /* Increase font size (adjust as needed) */
+    line-height: 1.5; /* Adjust line height for readability */
+
 }
