@@ -38,3 +38,9 @@ main {
     width: 100%; /* Set the width to 100% of the container */
     height: auto; /* Automatically adjust height to maintain aspect ratio */
 }
+
+.svg-heart {
+    width: 320px;
+    height: 320px;
+    fill: rgb(205, 9, 90); /* Change the fill color */
+  }
